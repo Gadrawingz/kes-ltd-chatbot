@@ -1,0 +1,14 @@
+.inchat-p {
+    margin-bottom: 12px!important;
+    color: blue;
+    font-weight: bold;
+}
+
+.inchat-ul {
+    margin-left: 0!important;
+}
+
+.inchat-ul li {
+    font-weight: normal;
+    font-size: small;
+}
