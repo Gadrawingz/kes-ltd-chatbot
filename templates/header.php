@@ -22,6 +22,7 @@
         <link rel="stylesheet" href="css/custom.css" />
         <!-- Chatbot stylesheet -->
         <link rel="stylesheet" href="css/chatbot.css">
+        <link rel="stylesheet" href="css/chatbot-big.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
         <script src="js/chatbot.js" defer></script>
@@ -29,7 +30,6 @@
     <body>
 
         <!-- Preloader -->
-
         <div id="loading">
             <div id="loading-center">
                 <div id="loading-center-absolute">
@@ -46,11 +46,10 @@
                 </div>
             </div>
         </div>
-
         <!--End off Preloader -->
 
         <!-- Header -->
-        <header>
+        <header style="margin: 0!important; padding: 0!important;">
             <!-- Top Navbar -->
             <div class="top_nav">
                 <div class="container">
@@ -71,7 +70,7 @@
             </div><!-- Top Navbar end -->
 
             <!-- Navbar -->
-            <nav class="navbar bootsnav">
+            <nav class="navbar bootsnav" style="margin: 0!important; padding: 0!important;">
                 <!-- Top Search -->
                 <div class="top-search">
                     <div class="container">
@@ -96,9 +95,10 @@
                             <i class="fa fa-bars"></i>
                         </button>
                         <a class="navbar-brand" href="">
-                            <img class="logo" src="images/logo-2.jpg" alt="" style="height: 60px; width: auto;">
+                            <img class="logo" src="images/logo-2.jpg" alt="" style="height: 80px; width: auto;">
                         </a>
                     </div>
+                    
                     <!-- Navigation -->
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav menu">
@@ -111,6 +111,7 @@
                             <li><a href="contact.php">Contact Us</a></li>
                         </ul>
                     </div>
+                    
                 </div>   
             </nav><!-- Navbar end -->
         </header><!-- Header end -->
